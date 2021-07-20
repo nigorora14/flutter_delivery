@@ -28,7 +28,7 @@ Future<ResponseApi> create(User user) async{
     return responseApi;
   }
   catch(e){
-    print('Error: '+e);
+    print(e);
     return null;
   }
 }

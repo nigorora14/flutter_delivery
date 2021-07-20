@@ -31,7 +31,7 @@ llamando a las rutas
 */
 users(app)
 
-server.listen(3000,'192.168.0.130' || 'localhost', function(){
+server.listen(3000,'192.168.0.106' || 'localhost', function(){
     console.log('App '+process.pid+' iniciada...')
     console.log('App '+port+' iniciada...')
 })
