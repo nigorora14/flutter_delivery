@@ -2,7 +2,7 @@ import 'package:ecommerce_delivery/src/models/user.dart';
 import 'package:ecommerce_delivery/src/utils/shared_pref.dart';
 import 'package:flutter/material.dart';
 
-class ClientProductsListController{
+class RestaurantsOrdersListController{
   BuildContext context;
   SharedPref _sharedPref = new SharedPref();
   GlobalKey<ScaffoldState> key = new GlobalKey<ScaffoldState>();
